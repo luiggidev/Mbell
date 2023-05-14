@@ -1,0 +1,43 @@
+.bell-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .app-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  .interval-input {
+    margin-bottom: 16px;
+  }
+  
+  .interval-input label {
+    font-size: 18px;
+    color: #333;
+    margin-right: 8px;
+  }
+  
+  .interval-input input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 4px;
+  }
+  
+  .bell-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  
